@@ -31,7 +31,7 @@ let value: any = "Hello";
 // 5. unknown
 let input: unknown;
 input = 10;
-input = "Naresh";
+input = "Martha";
 if (typeof input === "string") {
   console.log(input.toUpperCase());
 }
@@ -55,3 +55,24 @@ function throwError(message: string): never {
 function infiniteLoop(): never {
   while (true) {}
 }
+
+
+const person:{
+  name:string,
+  age:number,
+  city:string,
+  teen:boolean,
+  skills:string[],
+  gadgets:[string,number]
+  
+}={
+  name:"Jonassss",
+  age:12,
+  city:"Weiden",
+  teen:true,
+  gadgets:["Laptop",1221],
+  skills:["Java","JavaScript","Typescript","ReactJs","NodeJs","NextJs"]
+}
+
+console.log(person.skills[3])
+

@@ -45,3 +45,12 @@ function throwError(message) {
 function infiniteLoop() {
     while (true) { }
 }
+var person = {
+    name: "Jonassss",
+    age: 12,
+    city: "Weiden",
+    teen: true,
+    gadgets: ["Laptop", 1221],
+    skills: ["Java", "JavaScript", "Typescript", "ReactJs", "NodeJs", "NextJs"]
+};
+console.log(person.skills[3]);
