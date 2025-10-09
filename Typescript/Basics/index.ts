@@ -3,7 +3,7 @@
 //Basic data types
 
 // 1. string
-let username: string = "Naresh";
+let username: string = "Jonas";
 let city: string = "Hyderabad";
 let greeting: string = `Hello, ${username}!`;
 
@@ -20,13 +20,24 @@ if (isLoggedIn) {
 } else {
   console.log("Please login");
 }
+// The any type disables all type checking for that variable.
+// It basically tells TypeScript:
+
+// “Trust me, I know what I’m doing — don’t check this!”
 
 // 4. any
 let data: any = 10;
-data = "Naresh";
+data = "Jonas";
 data = true;
 let value: any = "Hello";
 // value.toFixed(2); // Runtime error example
+
+
+// The unknown type means:
+
+// “I don’t know what this is yet — check before using it.”
+
+// It’s safer than any because TypeScript forces you to verify the type before using it.
 
 // 5. unknown
 let input: unknown;
@@ -35,6 +46,26 @@ input = "Martha";
 if (typeof input === "string") {
   console.log(input.toUpperCase());
 }
+
+
+// | Feature               | `any`                            | `unknown`                                 |
+// | --------------------- | -------------------------------- | ----------------------------------------- |
+// | Type Safety           | ❌ No type safety                 | ✅ Type-safe                               |
+// | Assign to other types | ✅ Allowed freely                 | ❌ Must check type before assigning        |
+// | Compile-time check    | ❌ Skipped                        | ✅ Checked                                 |
+// | When to use           | When you *don’t care* about type | When you *don’t know yet* what type it is |
+
+
+
+let a: any = "Naresh";
+let u: unknown = "Naresh";
+
+let str1: string = a; // ✅ works (no check)
+let str2: string = u; // ❌ Error — must verify type
+
+
+
+
 
 // 6. void
 function greet(name: string): void {
@@ -75,4 +106,22 @@ const person:{
 }
 
 console.log(person.skills[3])
+
+
+
+//Unions
+
+let val: string | number;
+val = "Hello";
+val = 100; // ✅ both allowed
+
+
+
+//type Alias
+
+type UserID = string | number;
+let id: UserID = 101;
+
+
+
 
