@@ -64,14 +64,11 @@ let str1: string = a; // ✅ works (no check)
 let str2: string = u; // ❌ Error — must verify type
 
 
-
-
-
 // 6. void
 function greet(name: string): void {
   console.log(`Hello, ${name}`);
 }
-greet("Naresh");
+greet("Jonas");
 
 // 7. null and undefined
 let user: string | null = null;
@@ -105,7 +102,7 @@ const person:{
   skills:["Java","JavaScript","Typescript","ReactJs","NodeJs","NextJs"]
 }
 
-console.log(person.skills[3])
+
 
 
 
