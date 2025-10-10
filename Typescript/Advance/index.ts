@@ -30,7 +30,7 @@ fruits.push("Mango"); // ✅
 fruits.push(100);     // ❌ Error
 
 
-//popbbvvbbffuvygtvgughguvyvyv6gg
+//popbbvvbbffuvygtvgughguvyvyv6ggugvt
 
 fruits.pop();
 console.log(fruits);
