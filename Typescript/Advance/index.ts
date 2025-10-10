@@ -27,11 +27,9 @@ let students: Student[] = [
 
 let fruits: string[] = ["Apple", "Banana"];
 fruits.push("Mango"); // ✅
-fruits.push(100);     // ❌ Error
+fruits.push(100);     
 
-
-//popbbvvbbffuvygtvgughguvyvyv6ggugvthvxcbf. tr vt
-
+//pop
 fruits.pop();
 console.log(fruits);
 
