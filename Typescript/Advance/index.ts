@@ -23,7 +23,7 @@ let students: Student[] = [
   { name: "Kiran", age: 22 },
 ];
 
-//methods
+//methodsjgug6
 
 let fruits: string[] = ["Apple", "Banana"];
 fruits.push("Mango"); // ✅
