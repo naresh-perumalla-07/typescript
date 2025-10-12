@@ -21,7 +21,7 @@ if (isLoggedIn) {
   console.log("Please login");
 }
 // The any type disables all type checking for that variable.
-// It basically tells TypeScript:bgdhhhhdd
+// It basically tells TypeScript:bgdhhhhddggdf
 
 // “Trust me, I know what I’m doing — don’t check this!”
 
