@@ -1,4 +1,4 @@
-
+⁷
 
 //Basic data types
 
@@ -21,7 +21,7 @@ if (isLoggedIn) {
   console.log("Please login");
 }
 // The any type disables all type checking for that variable.
-// It basically tells TypeScript:bgdhhhhddggdfbbf
+// It basically tells TypeScript:
 
 // “Trust me, I know what I’m doing — don’t check this!”
 
