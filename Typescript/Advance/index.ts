@@ -40,7 +40,7 @@ let squares: number[] = nums.map(num => num * num);
 console.log(squares); // [1, 4, 9]
 
 
-//filterkbjkbnjknbm
+//filter
 
 let even: number[] = nums.filter(num => num % 2 === 0);
 console.log(even); // [2]
