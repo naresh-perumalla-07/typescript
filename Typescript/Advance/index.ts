@@ -1,6 +1,6 @@
 
 
-//Arraysdfdsasfdsdfsdsdfsdf
+s
 
 let arr:string[];
 arr=["Jonas","Martha"]
