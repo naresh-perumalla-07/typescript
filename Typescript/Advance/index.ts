@@ -1,6 +1,6 @@
 
 
-//Arrays
+//Arraysdfds
 
 let arr:string[];
 arr=["Jonas","Martha"]
