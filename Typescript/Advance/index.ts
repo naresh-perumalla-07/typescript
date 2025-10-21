@@ -1,7 +1,5 @@
 
-
-s
-sdf
+sd
 let arr:string[];
 arr=["Jonas","Martha"]
 
