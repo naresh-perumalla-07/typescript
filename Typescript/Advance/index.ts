@@ -1,4 +1,4 @@
-df
+
 let arr:string[];
 arr=["Jonas","Martha"]
 
@@ -37,7 +37,7 @@ let squares: number[] = nums.map(num => num * num);
 console.log(squares); // [1, 4, 9]
 
 
-//filterxcvx
+//filter
 
 let even: number[] = nums.filter(num => num % 2 === 0);
 console.log(even); // [2]
